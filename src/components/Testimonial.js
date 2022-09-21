@@ -21,7 +21,7 @@ function Testimonial() {
             </div>
           </div>
         </div>
-        <div className="bg-sky-900">
+        <div className="bg-zinc-100">
           <div className="xl:px-20 px-8 py-20 2xl:mx-auto 2xl:container relative z-40">
             <CarouselProvider
               naturalSlideWidth={100}

@@ -1,25 +1,29 @@
 import React from "react";
-
 import WhatsAppWidget from "react-whatsapp-chat-widget";
 import "react-whatsapp-chat-widget/index.css";
+import Eyebanner from "../../Assest/Eyebanner.jpg";
+// import mbbanner from "../../Assest/Mbbanner.jpg";
 
 function Banner() {
   return (
     <div>
       <div>
         <img
-          className="w-full h-full bg-cover  md:block hidden pt-10 md:pt-16 lg:pt-20  "
-          src="https://athulyahomecare.com/lp/medical-equipments/assets/medicalequipmentbanner.jpg"
+          className="w-full h-full bg-cover  md:block hidden pt-10 md:pt-16 lg:pt-20   "
+          src={Eyebanner}
           alt="banner "
         />
-        <div className="mt-10">
+      </div>
+      {/* <div className="block md:hidden  ">
+        <div className="pt-10   ">
           <img
-            className="w-full h-full  md:pt-12 md:hidden block   "
-            src="https://athulyahomecare.com/lp/medical-equipments/assets/bannermb.jpg"
+            className="  w-full h-full  md:pt-12 md:hidden block"
+            src={mbbanner}
             alt="banner "
           />
         </div>
-      </div>
+      </div> */}
+
       <div className="absolute">
         <WhatsAppWidget
           phoneNo="919884639400"

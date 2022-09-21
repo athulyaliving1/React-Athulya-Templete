@@ -1,8 +1,13 @@
 import React from "react";
 import Banner from "./Basic/Banner";
+import MbBanner from "./Basic/MbBanner";
+import MdForm from "./Basic/MdForm";
 
 import Navbar from "./Basic/Navbar";
 import NavbarXl from "./Basic/NavbarXl";
+
+import XlForm from "./Basic/XlForm";
+
 import Content from "./Content";
 import Grid from "./Grid";
 import Mbtestimonal from "./Mbtestimonal";
@@ -13,7 +18,10 @@ function Home() {
     <div>
       <Navbar />
       <NavbarXl />
-      <Banner/>
+      <Banner />
+      <MbBanner/>
+      <XlForm />
+      <MdForm/>
       <Content />
       <Grid />
       <Testimonial />

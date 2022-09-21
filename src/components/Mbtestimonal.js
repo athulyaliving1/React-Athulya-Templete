@@ -165,9 +165,9 @@ function Mbtestimonal() {
                   </div>
                 </Slide>
               </Slider>
-              <div className="flex items-center mt-8">
+              <div className="flex justify-center">
                 <ButtonBack
-                  className="cursor-pointer  "
+                  className="cursor-pointer text-white "
                   role="button"
                   aria-label="previous slide"
                 >
@@ -177,12 +177,12 @@ function Mbtestimonal() {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-6 h-6 text-white"
+                    class="w-6 h-6"
                   >
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+                      d="M5.25 7.5A2.25 2.25 0 017.5 5.25h9a2.25 2.25 0 012.25 2.25v9a2.25 2.25 0 01-2.25 2.25h-9a2.25 2.25 0 01-2.25-2.25v-9z"
                     />
                   </svg>
                 </ButtonBack>
@@ -190,7 +190,7 @@ function Mbtestimonal() {
                 <ButtonNext
                   role="button"
                   aria-label="next slide"
-                  className="cursor-pointer ml-2 absolute z-30 right-0 mr-8 focus:outline-none "
+                  className="text-white "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -198,12 +198,12 @@ function Mbtestimonal() {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-6 h-6 text-white"
+                    class="w-6 h-6"
                   >
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                      d="M5.25 7.5A2.25 2.25 0 017.5 5.25h9a2.25 2.25 0 012.25 2.25v9a2.25 2.25 0 01-2.25 2.25h-9a2.25 2.25 0 01-2.25-2.25v-9z"
                     />
                   </svg>
                 </ButtonNext>

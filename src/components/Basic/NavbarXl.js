@@ -1,14 +1,15 @@
 import React from "react";
+import Logo from "../../Assest/logo.png";
 
 function NavbarXl() {
   return (
     <div>
       <div className="">
         <div className="bg-zinc-100 w-screen fixed z-50 shadow-xl md:block hidden ">
-          <div className="xl:px-40 px-9 flex items-center ">
+          <div className="container mx-auto flex items-center ">
             <img
-              className="xl:w-1/12 2xl:h-4/6  desktop:w-1/12   md:w-2/12 lg:w-2/12  w-5/12  mt-2 "
-              src="https://athulyahomecare.com/lp/images/care.png"
+              className="xl:w-1/12 2xl:h-4/6  desktop:w-2/12  md:w-2/12 lg:w-2/12   w-5/12  mt-2 "
+              src={Logo}
               alt="logo"
             />
             <div class=" md:flex  fon   font-semibold   md:ml-auto">
