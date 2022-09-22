@@ -7,7 +7,6 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import mbbanner from "../../Assest/Mbbanner.jpg";
 
-
 // import MbBanner1 from "../components/Assets/sm-banner.jpg";
 
 const phoneRegExp =
@@ -98,14 +97,11 @@ function MbBanner() {
             src="https://athulyahomecare.com/lp/images/sm-banner.png"
             alt="smpic"
           /> */}
-          <img
-            src={mbbanner }
-            alt="mbbanner"
-          />
+          <img src={mbbanner} alt="mbbanner" />
         </div>
-        <div className="container">
+        <div className="container font-Ubuntu">
           <div className=" text-justify mt-5 mb-5 ">
-            <h1 className="xl:text-3xl  flex justify-center text-xl font-sans font-semibold  md:text-white  text-sky-800 md:p-5 p-2  ">
+            <h1 className="xl:text-3xl  flex justify-center text-xl font-Ubuntu  font-semibold  md:text-white  text-sky-800 md:p-5 p-2  ">
               Submit Your Details
             </h1>
             <div>
@@ -120,15 +116,15 @@ function MbBanner() {
                           type="text"
                           name="name"
                           id="name"
-                          class="block py-2.5 px-0 w-full text-xl font-Robot font-semibold   text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none focus:outline-none focus:ring-0 focus:border-sky-800 peer"
+                          class="block py-2.5 px-0 w-full text-xl font-semibold   text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none focus:outline-none focus:ring-0 focus:border-sky-800 peer"
                           placeholder=" "
                         />
-                        <p className="text-pink-500 font-Poppins font-semibold">
+                        <p className="text-pink-500  font-semibold">
                           {errors.name?.message}
                         </p>
                         <label
                           for="name"
-                          class="peer-focus:font-semibold  text-lg font-Robot font-semibold   absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                          class="peer-focus:font-semibold  text-lg font-semibold   absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                         >
                           Full Name
                         </label>
@@ -140,7 +136,7 @@ function MbBanner() {
                           name="email"
                           onChange={(e) => setEmail(e.target.value)}
                           id="email"
-                          class="block py-2.5 px-0 w-full text-lg font-Robot font-semibold  text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none   focus:outline-none focus:ring-0 focus:border-sky-800 peer"
+                          class="block py-2.5 px-0 w-full text-lg font-semibold  text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none   focus:outline-none focus:ring-0 focus:border-sky-800 peer"
                           placeholder=" "
                         />
                         <p className="text-pink-500 font-Poppins font-semibold">
@@ -148,7 +144,7 @@ function MbBanner() {
                         </p>
                         <label
                           for="floating_email"
-                          class="peer-focus:font-semibold   text-lg font-Robot font-semibold    absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                          class="peer-focus:font-semibold   text-lg  font-semibold    absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                         >
                           Email address
                         </label>
@@ -160,7 +156,7 @@ function MbBanner() {
                           type="number"
                           name="number"
                           id="number"
-                          class="block py-2.5 px-0 w-full  text-lg font-Robot  font-semibold  text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none   focus:outline-none focus:ring-0 focus:border-sky-800 peer"
+                          class="block py-2.5 px-0 w-full  text-lg   font-semibold  text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none   focus:outline-none focus:ring-0 focus:border-sky-800 peer"
                           placeholder=" "
                         />
                         <p className="text-pink-500 font-Poppins font-semibold">
@@ -168,7 +164,7 @@ function MbBanner() {
                         </p>
                         <label
                           for="number"
-                          class="peer-focus:font-semibold   text-lg font-Robot  font-semibold  absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                          class="peer-focus:font-semibold   text-lg   font-semibold  absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                         >
                           Mobile Number
                         </label>

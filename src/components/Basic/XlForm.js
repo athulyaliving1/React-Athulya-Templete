@@ -87,7 +87,7 @@ export default function XlForm() {
     <div className="bg-zinc-400 ">
       {/* 2xl Large devices */}
       <div className="container mx-auto">
-        <div className=" p-3 xl:block hidden font-Poppins">
+        <div className=" p-3 xl:block hidden font-Ubuntu">
           <form
             onSubmit={handleSubmit(sendDataToAPI)}
             class="p-6  flex flex-col justify-center"
@@ -103,7 +103,7 @@ export default function XlForm() {
                   className="w-100 mt-2 py-3 rounded-lg bg-white border border-gray-400 font-semibold focus:border-sky-700 focus:outline-none placeholder:px-5"
                   name="name"
                 />
-                <p className="text-pink-500 font-Poppins font-semibold">
+                <p className="text-pink-500 font-semibold">
                   {errors.name?.message}
                 </p>
               </div>
@@ -118,7 +118,7 @@ export default function XlForm() {
                   className="w-100 mt-2 py-3 rounded-lg bg-white border border-gray-400 font-semibold focus:border-sky-700 focus:outline-none placeholder:px-5 "
                   name="email"
                 />
-                <p className="text-pink-500 font-Poppins font-semibold">
+                <p className="text-pink-500  font-semibold">
                   {errors.email?.message}
                 </p>
               </div>
@@ -133,7 +133,7 @@ export default function XlForm() {
                   className="w-100 mt-2 py-3 rounded-lg bg-white border border-gray-400 font-semibold focus:border-sky-700 focus:outline-none placeholder:px-5"
                   name="number"
                 />
-                <p className="text-pink-500 font-Poppins font-semibold">
+                <p className="text-pink-500  font-semibold">
                   {errors.number?.message}
                 </p>
               </div>
@@ -148,7 +148,7 @@ export default function XlForm() {
                   class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-sky-700 focus:outline-none "
                   name="textarea"
                 />
-                <p className="text-pink-500 font-Poppins font-semibold">
+                <p className="text-pink-500  font-semibold">
                   {errors.textarea?.message}
                 </p>
               </div>

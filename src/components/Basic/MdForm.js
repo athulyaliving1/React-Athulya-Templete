@@ -81,7 +81,7 @@ function MdForm() {
   return (
     <div className="bg-zinc-400">
       {/* Md devices */}
-      <div className="container mx-auto hidden 2xl:hidden md:block xl:hidden ">
+      <div className="container mx-auto hidden 2xl:hidden md:block xl:hidden font-Ubuntu  ">
         <div className="grid-rows-1  p-3  font-Poppins">
           <form
             onSubmit={handleSubmit(sendDataToAPI)}
@@ -98,7 +98,7 @@ function MdForm() {
                   className="w-100 mt-2 py-3 rounded-lg bg-white border border-gray-400 font-semibold focus:border-sky-700 focus:outline-none placeholder:px-5"
                   name="name"
                 />
-                <p className="text-pink-500 font-Poppins font-semibold">
+                <p className="text-pink-500 font-Ubuntu font-semibold">
                   {errors.name?.message}
                 </p>
               </div>
@@ -113,7 +113,7 @@ function MdForm() {
                   className="w-100 mt-2 py-3 rounded-lg bg-white border border-gray-400 font-semibold focus:border-sky-700 focus:outline-none placeholder:px-5 "
                   name="email"
                 />
-                <p className="text-pink-500 font-Poppins font-semibold">
+                <p className="text-pink-500  font-semibold">
                   {errors.email?.message}
                 </p>
               </div>
@@ -128,7 +128,7 @@ function MdForm() {
                   className="w-100 mt-2 py-3 rounded-lg bg-white border border-gray-400 font-semibold focus:border-sky-700 focus:outline-none placeholder:px-5"
                   name="number"
                 />
-                <p className="text-pink-500 font-Poppins font-semibold">
+                <p className="text-pink-500  font-semibold">
                   {errors.number?.message}
                 </p>
               </div>
@@ -143,7 +143,7 @@ function MdForm() {
                   class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-sky-700 focus:outline-none "
                   name="textarea"
                 />
-                <p className="text-pink-500 font-Poppins font-semibold">
+                <p className="text-pink-500  font-semibold">
                   {errors.textarea?.message}
                 </p>
               </div>

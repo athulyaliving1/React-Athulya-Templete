@@ -27,6 +27,7 @@ module.exports = {
       Roboto: ["Roboto", "sans-serif"],
       sans: ["Open Sans", "sans-serif"],
       Helvetica: ["Open Sans", "sans-serif"],
+      Ubuntu: ["Ubuntu", "sans-serif"],
     },
 
     container: {
