@@ -19,7 +19,6 @@ function Home() {
       <Content />
       <Grid />
       <TestimonialNew />
-  
     </div>
   );
 }
