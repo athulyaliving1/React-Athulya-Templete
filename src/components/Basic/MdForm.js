@@ -79,7 +79,7 @@ function MdForm() {
     }, 2000);
   };
   return (
-    <div className="bg-zinc-400">
+    <div className="bg-sky-900">
       {/* Md devices */}
       <div className="container mx-auto hidden 2xl:hidden md:block xl:hidden font-Ubuntu  ">
         <div className="grid-rows-1  p-3  font-Poppins">

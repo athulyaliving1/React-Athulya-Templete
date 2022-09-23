@@ -7,10 +7,10 @@ import Image3 from "../Assest/image-3.jpg";
 function Grid() {
   return (
     <div className="">
-      <div div class="  relative bg-white  ">
+      <div div class="  relative bg-zinc-100  ">
         <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center container mx-auto">
           <div class="lg:col-start-2 md:pl-20">
-            <h4 class="text-2xl  lg:text-2xl   font-semibold text-sky-800 text-center font-Ubuntu leading-8  tracking-tight sm:leading-9  capitalize ">
+            <h4 class="text-2xl  lg:text-2xl   font-semibold text-sky-800 text-center font-Ubuntu leading-8  tracking-tight sm:leading-9  capitalize pt-5 ">
               Benefits of home visiting <span> </span>
               <span className="text-pink-500 capitalize">eye doctors</span>
             </h4>
@@ -712,10 +712,10 @@ function Grid() {
                   the type of eye care they are searching for by utilizing
                   healthcare professionals from various disciplines.
                 </p>
-                <p class="mb-8 md:text-xl text-gray-800 font-Helvetica font-medium  text-justify">
-                  A domain name is one of the first steps to establishing your
-                  brand. Secure a consistent brand image with a domain name that
-                  matches your business.
+                <p class="mb-8 md:text-xl text-gray-800 font-Ubuntu font-semibold opacity-90  text-justify">
+                  Having touched the lives of 15000+ seniors, Athulya Home
+                  Healthcare brings healing to your home, exclusively for
+                  seniors. Get in touch today for overall senior care.
                 </p>
               </div>
             </div>

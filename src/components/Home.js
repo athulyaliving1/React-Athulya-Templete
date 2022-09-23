@@ -5,8 +5,9 @@ import MdForm from "./Basic/MdForm";
 import XlForm from "./Basic/XlForm";
 import Content from "./Content";
 import Grid from "./Grid";
-import Mbtestimonal from "./Mbtestimonal";
-import Testimonial from "./Testimonial";
+// import Mbtestimonal from "./Mbtestimonal";
+// import Testimonial from "./Testimonial";
+import TestimonialNew from "./TestimonialNew";
 
 function Home() {
   return (
@@ -17,8 +18,8 @@ function Home() {
       <MdForm />
       <Content />
       <Grid />
-      <Testimonial />
-      <Mbtestimonal />
+      <TestimonialNew />
+  
     </div>
   );
 }

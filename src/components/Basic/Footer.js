@@ -6,7 +6,7 @@ function Footer() {
       <div class="py-2 text-xs md:text-sm font-Helvetica  ">
         <div class="w-full border-t-2 border-white"></div>
       </div>
-      <div className="container   p-4 mx-auto md:p-8 lg:flex-row divide-gray-400">
+      <div className="container   p-4 mx-auto md:p-5 lg:flex-row divide-gray-400 ">
         <div className="flex flex-col justify-center pt-6 lg:pt-0">
           <div className="flex justify-center space-x-4">
             <a

@@ -74,7 +74,7 @@ function Testimonial() {
                         />
                       </div>
                       <div class="w-full mb-10">
-                        <div class="text-3xl text-pink-500 text-left leading-tight h-3">
+                        <div class="text-5xl text-pink-500 text-left leading-tight h-3">
                           “
                         </div>
                         <p class="text-sm text-gray-600  text-center px-5">

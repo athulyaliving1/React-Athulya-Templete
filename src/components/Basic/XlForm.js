@@ -84,7 +84,7 @@ export default function XlForm() {
   };
 
   return (
-    <div className="bg-zinc-400 ">
+    <div className="bg-sky-900 ">
       {/* 2xl Large devices */}
       <div className="container mx-auto">
         <div className=" p-3 xl:block hidden font-Ubuntu">

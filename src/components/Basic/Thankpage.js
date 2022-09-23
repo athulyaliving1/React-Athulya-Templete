@@ -5,7 +5,7 @@ import Thankpic from "../../Assest/ophthalmology-3.jpg";
 function Thankpage() {
   return (
     <div>
-      <section class="text-gray-600 body-font bg-sky-100">
+      <section class="text-gray-600 body-font bg-zinc-100  bg-fixed">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
           <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden xl:mt-10">
             <img
@@ -14,15 +14,15 @@ function Thankpage() {
               src={Thankpic}
             />
           </div>
-          <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden xl:mt-10">
+          <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden xl:mt-10 grid  gap-4 content-center ">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-              <h2 className="max-w-lg mb-6 font-Ubuntu mt-10 text-3xl font-bold leading-none tracking-tight text-sky-800 sm:text-4xl md:mx-auto capitalize">
+              <h2 className="max-w-lg mb-6 font-Helvetica mt-10 text-3xl font-bold leading-none tracking-tight text-sky-800 sm:text-4xl md:mx-auto capitalize">
                 <span className="relative inline-block ">
                   <span className="relative"> Your</span>
                 </span>
-                <span></span> form is successfully submitted!
+                <span></span> form is <span className="text-pink-500">successfully submitted!</span>   
               </h2>
-              <p className="text-base text-sky-800 md:text-lg xl:text-xl 2xl:text-xl font-semibold   font-Helvetica">
+              <p className="text-base text-sky-800 md:text-lg xl:text-xl 2xl:text-xl font-semibold   font-Ubuntu">
                 Thank for your enquiring with us! Our Customer Service
                 Executives will reach to you at the earliest! Do wait for our
                 call!
