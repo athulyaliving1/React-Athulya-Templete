@@ -93,7 +93,7 @@ function Footer() {
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </div>
-          <div className="self-center  py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
+          <div className="self-center  py-2 space-y-2 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
             <ul className="">
               <p> Copyright © {new Date().getFullYear()}</p>
               <p>

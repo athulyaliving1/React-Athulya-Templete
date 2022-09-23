@@ -126,7 +126,7 @@ function TestimonialNew() {
             <div className="flex flex-col items-center justify-center mt-10">
               <img src={user} alt="profile pictre" className="w-12 h-12" />
               <p className="text-base leading-4 text-center font-Helvetica font-semibold opacity-90 ">
-                - Arivoli A
+                Arivoli A
               </p>
               <div className="text-yellow-400 mt-2">
                 <ion-icon name="star"></ion-icon>
@@ -251,7 +251,7 @@ function TestimonialNew() {
             <div className="flex flex-col items-center justify-center mt-10">
               <img src={user} alt="profile pictre" className="w-12 h-12" />
               <p className="text-base leading-4 text-center font-Helvetica font-semibold opacity-90 ">
-                - Vishwa bal
+                Vishwa bal
               </p>
               <div className="text-yellow-400 mt-2">
                 <ion-icon name="star"></ion-icon>
@@ -375,7 +375,7 @@ function TestimonialNew() {
             <div className="flex flex-col items-center justify-center mt-10">
               <img src={user} alt="profile pictre" className="w-12 h-12" />
               <p className="text-base leading-4 text-center font-Helvetica font-semibold opacity-90 ">
-                - Sathiya satz
+                Sathiya satz
               </p>
               <div className="text-yellow-400 mt-2">
                 <ion-icon name="star"></ion-icon>
