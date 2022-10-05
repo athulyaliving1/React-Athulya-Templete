@@ -1,27 +1,27 @@
 import React from "react";
-import Logo from "../../Assest/logo.png";
+
 
 function NavbarXl() {
   return (
     <div>
       <div className="">
-        <div className="bg-zinc-100 w-screen fixed z-50 shadow-xl md:block hidden ">
-          <div className="container mx-auto flex items-center ">
+        <div className="fixed z-50 hidden w-screen shadow-xl bg-zinc-100 md:block ">
+          <div className="container flex items-center mx-auto ">
             <img
-              className="xl:w-1/12 2xl:h-4/6  desktop:w-2/12  md:w-2/12 lg:w-2/12   w-5/12  mt-2 "
-              src={Logo}
+              className="w-5/12 mt-2 xl:w-1/12 2xl:h-4/6 desktop:w-2/12 md:w-2/12 lg:w-2/12 "
+              src="https://athulyahomecare.com/lp/images/care.png"
               alt="logo"
             />
             <div class=" md:flex  fon   font-semibold   md:ml-auto">
-              <ul className="mt-5 lg:mt-5 md:flex  text-sky-900 font-Helvetica    space-x-5 ">
-                <li className="flex  mb-3 md:mb-0 md:px-0">
+              <ul className="mt-5 space-x-5 lg:mt-5 md:flex text-sky-900 font-Helvetica ">
+                <li className="flex mb-3 md:mb-0 md:px-0">
                   <a
                     className="flex"
                     href="tel:98849 45900 "
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span className=" text-pink-500">
+                    <span className="text-pink-500 ">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"
@@ -34,14 +34,14 @@ function NavbarXl() {
                     98849 45900
                   </a>
                 </li>
-                <li className="md:flex hidden ">
+                <li className="hidden md:flex ">
                   <a
                     className="flex"
-                    href="mailto:mailto:enquiry@athulyaliving.com"
+                    href="mailto:mailto:response@athulyahomecare.com"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span className="   md:px-1 md:py-1 text-pink-500">
+                    <span className="text-pink-500 md:px-1 md:py-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"
@@ -52,7 +52,7 @@ function NavbarXl() {
                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                       </svg>
                     </span>
-                    enquiry@athulyaliving.com
+                    response@athulyahomecare.com
                   </a>
                 </li>
               </ul>

@@ -1,7 +1,7 @@
 import React from "react";
 import WhatsAppWidget from "react-whatsapp-chat-widget";
 import "react-whatsapp-chat-widget/index.css";
-import Eyebanner from "../../Assest/Eyebanner.jpg";
+
 // import mbbanner from "../../Assest/Mbbanner.jpg";
 
 function Banner() {
@@ -9,15 +9,15 @@ function Banner() {
     <div>
       <div>
         <img
-          className="w-full h-full bg-cover  md:block hidden pt-10 md:pt-16 lg:pt-20   "
-          src={Eyebanner}
+          className="hidden w-full h-full pt-10 bg-cover md:block md:pt-16 lg:pt-20 "
+          src="https://athulyahomecare.com/lp/images/bannerk.jpg"
           alt="banner "
         />
       </div>
-      {/* <div className="block md:hidden  ">
-        <div className="pt-10   ">
+      {/* <div className="block md:hidden ">
+        <div className="pt-10 ">
           <img
-            className="  w-full h-full  md:pt-12 md:hidden block"
+            className="block w-full h-full md:pt-12 md:hidden"
             src={mbbanner}
             alt="banner "
           />
